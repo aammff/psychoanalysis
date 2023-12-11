@@ -9,11 +9,13 @@
 --location=onsite|remote|mixed
 --analyst-registered=yes|no
 --comment=...
-[{person=Adam Fuks <mail@adamfuks.net>,
+[{
+person=Adam Fuks <mail@adamfuks.net>,
 psychoanalysis=[
-	{as=analysand,current=no,session-length=constant, direct-payment=no, analysand-name=known,analyst-name=known, lang=pl, location=onsite, analyst-registered=yes, comment=},
-	{as=analysand,current=no,session-length=variable, direct-payment=yes, analysand-name=known,analyst-name=known, lang=pl, location=mixed, analyst-registered=yes,comment=},
-	{as=analysand,current=no, session-length=variable, direct-payment=0, analysand-name=known,analyst-name=known, lang=pl, location=remote, analyst-registered=yes,comment=},
-	{as=analyst,current=no,session-length=variable, direct-payment=yes, analysand-name=known, analyst-name=known, lang=en, location=remote, analyst-registered=yes,comment=}
+ {as=analysand, current=no, session-length=constant, direct-payment=no,  analysand-name=known, analyst-name=known, lang=pl, location=onsite, analyst-registered=yes, comment=},
+ {as=analysand, current=no, session-length=variable, direct-payment=yes, analysand-name=known, analyst-name=known, lang=pl, location=mixed,  analyst-registered=yes, comment=},
+ {as=analysand, current=no, session-length=variable, direct-payment=0,   analysand-name=known, analyst-name=known, lang=pl, location=remote, analyst-registered=yes, comment=},
+ {as=analyst,   current=no, session-length=variable, direct-payment=yes, analysand-name=known, analyst-name=known, lang=en, location=remote, analyst-registered=yes, comment=}
 ],
-publication=["https://doi.org/10.5281/zenodo.7048888"]}]
+publication=["https://doi.org/10.5281/zenodo.7048888"]
+}]
