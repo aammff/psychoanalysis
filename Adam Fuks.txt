@@ -17,5 +17,5 @@ psychoanalysis=[
  {as=analysand, current=no, session-length=variable, direct-payment=0,   analysand-name=known, analyst-name=known, lang=pl, location=remote, analyst-registered=yes, comment=},
  {as=analyst,   current=no, session-length=variable, direct-payment=yes, analysand-name=known, analyst-name=known, lang=en, location=remote, analyst-registered=yes, comment=}
 ],
-publication=["https://doi.org/10.5281/zenodo.7048888"]
+publication=["https://doi.org/10.5281/zenodo.7048888","https://raw.githubusercontent.com/aammff/psychoanalysis/main/Adam%20Fuks.txt"]
 }]
